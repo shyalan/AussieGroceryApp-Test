@@ -39,7 +39,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-auth:21.3.0'
 
-    // Add the following lines to resolve the issue
     implementation 'com.google.gms:google-services:4.3.10'
     implementation 'com.google.android.gms:play-services-maps:18.0.1'
 
@@ -48,5 +47,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-// Add the following lines at the bottom of the build.gradle file
 apply plugin: 'com.google.gms.google-services'
